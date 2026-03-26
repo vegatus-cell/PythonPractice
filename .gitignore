@@ -1,4 +1,21 @@
+#기본세트
 .idea/
 venv/
 __pycache__/
 *.pyc
+
+# 배포 및 빌드 관련 (PyInstaller 등으로 .exe 만들 때 생성됨)
+build/
+dist/
+*.spec
+
+# Qt Designer 관련 (임시 파일이나 백업)
+*.ui.autosave
+
+# 운영체제 관련 (맥북과 윈도우를 오갈 때 생기는 잡동사니)
+.DS_Store
+Thumbs.db
+
+# 로그 및 데이터베이스 (프로그램 실행 중 생기는 임시 기록)
+*.log
+*.sqlite
